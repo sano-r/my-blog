@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# data
+# ブログの記事
 /data/*
 !/data/sample.md
+
+# ブログのアイキャッチ
+/public/eyecatch/*

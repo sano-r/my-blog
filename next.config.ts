@@ -1,15 +1,17 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
   /* config options here */
   devIndicators: false,
-  // webpack: (config, {webpack}) => {
-  //   config.module.rules.push({
-  //     test: /\.md$/,
-  //     use: "raw-loader",
-  //   });
-  //   return config;
-  // }
 };
+
+// module.exports = {
+//   images: {
+//     remotePatterns: [
+
+//     ]
+//   }
+// }
 
 export default nextConfig;
