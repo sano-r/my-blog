@@ -1,7 +1,7 @@
-export default function ContactPage(){
-    return(
-        <>
-        <h1></h1>
-        </>
-    )
+export default function Contactpage() {
+  return (
+    <>
+      <h1>ContactPage</h1>
+    </>
+  );
 }
