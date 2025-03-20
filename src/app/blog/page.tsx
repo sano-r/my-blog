@@ -42,7 +42,11 @@ export default function Blog() {
         />
       </div>
       <ul className="grid grid-cols-1 gap-4">
-        {posts.map((post) => (
+        {posts.sort((a, b) => {
+            if(a.id > b.id) return -1;
+            if(a.id < b.id) return 1;
+            return 0;
+        }).map((post) => (
           <li
             key={post.slug}
             className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300"
